@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box of Ideas</title>
+    <link rel="stylesheet" href="box.css" />
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="container">
+        <h1>🎁 Box of Ideas</h1>
+        <div class="idea-box" id="ideaBox">Click below to get a cool idea!</div>
+
+        <button onclick="getRandomIdea()">🎲 Give me an idea</button>
+
+        <h3>Add Your Own Idea</h3>
+        <input type="text" id="userIdea" placeholder="Type your idea..." />
+        <select id="ideaCategory">
+          <option value="Project">Project</option>
+          <option value="Business">Business</option>
+          <option value="Fun">Fun</option>
+        </select>
+        <button onclick="addIdea()">➕ Add Idea</button>
+      </div>
+    </main>
+
+    <footer class="footer">© 2025 Box of Ideas by Vijay Kumar.K . All rights reserved.</footer>
+
+    <script src="box.js"></script>
+  </body>
+</html>
